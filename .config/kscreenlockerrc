@@ -1,0 +1,8 @@
+[Daemon]
+Autolock=false
+LockOnResume=false
+Timeout=0
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/pwner/Pictures/Pictures/E5B1B1E99BA8E5A682E699A6.png
+PreviewImage=/home/pwner/Pictures/Pictures/E5B1B1E99BA8E5A682E699A6.png

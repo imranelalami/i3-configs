@@ -1,0 +1,136 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Enable=
+
+[Colors:Button]
+BackgroundAlternate=44,88,155
+BackgroundNormal=35, 37, 46
+DecorationFocus=49,110,202
+DecorationHover=49,110,202
+ForegroundActive=49,110,202
+ForegroundInactive=92,98,108
+ForegroundLink=181,199,247
+ForegroundNegative=212,25,25
+ForegroundNeutral=253,125,0
+ForegroundNormal=255,255,255
+ForegroundPositive=25,161,135
+ForegroundVisited=92,98,108
+
+[Colors:Complementary]
+DecorationFocus=49,110,202
+DecorationHover=49,110,202
+ForegroundActive=49,110,202
+ForegroundLink=181,199,247
+
+[Colors:Selection]
+BackgroundAlternate=44,88,155
+BackgroundNormal=44,88,155
+DecorationFocus=49,110,202
+DecorationHover=49,110,202
+ForegroundActive=49,110,202
+ForegroundInactive=255,255,255
+ForegroundLink=36,80,147
+ForegroundNegative=191,23,23
+ForegroundNeutral=253,125,0
+ForegroundNormal=255,255,255
+ForegroundPositive=94,189,171
+ForegroundVisited=204,204,204
+
+[Colors:Tooltip]
+BackgroundAlternate=51,51,51
+BackgroundNormal=35, 37, 46
+DecorationFocus=49,110,202
+DecorationHover=49,110,202
+ForegroundActive=49,110,202
+ForegroundInactive=92,98,108
+ForegroundLink=181,199,247
+ForegroundNegative=212,25,25
+ForegroundNeutral=253,125,0
+ForegroundNormal=255,255,255
+ForegroundPositive=25,161,135
+ForegroundVisited=92,98,108
+
+[Colors:View]
+BackgroundAlternate=35,37,46
+BackgroundNormal=35, 37, 46
+DecorationFocus=49,110,202
+DecorationHover=49,110,202
+ForegroundActive=49,110,202
+ForegroundInactive=92,98,108
+ForegroundLink=181,199,247
+ForegroundNegative=212,25,25
+ForegroundNeutral=253,125,0
+ForegroundNormal=255,255,255
+ForegroundPositive=25,161,135
+ForegroundVisited=92,98,108
+
+[Colors:Window]
+BackgroundAlternate=35,37,46
+BackgroundNormal=35, 37, 46
+DecorationFocus=49,110,202
+DecorationHover=49,110,202
+ForegroundActive=49,110,202
+ForegroundInactive=92,98,108
+ForegroundLink=181,199,247
+ForegroundNegative=212,25,25
+ForegroundNeutral=253,125,0
+ForegroundNormal=255,255,255
+ForegroundPositive=25,161,135
+ForegroundVisited=92,98,108
+
+[General]
+AccentColor=49,110,202
+ColorSchemeHash=c158a575f608e773a49fdc4311812fa028c6eaf9
+TerminalApplication=terminator
+TerminalService=terminator.desktop
+XftSubPixel=none
+accentColorFromWallpaper=true
+fixed=Fira Code,15,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Noto Sans,15,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Noto Sans,15,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Noto Sans,13,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Noto Sans,15,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=Flat-Remix-Teal-Dark
+
+[KDE]
+AnimationDurationFactor=0.5
+DoubleClickInterval=300
+LookAndFeelPackage=org.kali.kalidark.desktop
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=165
+View Style=DetailTree
+
+[KScreen]
+ScaleFactor=1.25
+ScreenScaleFactors=Virtual1=1.25;Virtual2=1.25;Virtual3=1.25;Virtual4=1.25;Virtual5=1.25;Virtual6=1.25;Virtual7=1.25;Virtual8=1.25;
+
+[Shortcuts]
+SubstringCompletion=
+
+[WM]
+activeBackground=35,37,46
+activeBlend=35,37,46
+activeFont=Noto Sans,15,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeForeground=255,255,255
+inactiveBackground=35,37,46
+inactiveBlend=35,37,46
+inactiveForeground=120,120,120

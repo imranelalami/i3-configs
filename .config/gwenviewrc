@@ -1,0 +1,16 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/E5B1B1E99BA8E5A682E699A6.png
+File2[$e]=$HOME/Pictures/spider.jpeg
+File3[$e]=$HOME/imranelalami.github.io/assets/img/spider.jpeg
+Name1[$e]=E5B1B1E99BA8E5A682E699A6.png
+Name2[$e]=spider.jpeg
+Name3[$e]=spider.jpeg
+
+[SideBar]
+InformationSplitterSizes=211,244

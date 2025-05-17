@@ -52,11 +52,7 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym Control+t exec i3-sensible-terminal
 
-#start dolphin
-
-bindsym Shift+f exec --no-startup-id /usr/bin/dolphin
-
-# kill focused window 
+# kill focused window    #####changed
 bindsym Control+space kill
 
 # start dmenu (a program launcher)
@@ -194,11 +190,7 @@ bar {
         status_command i3status
 }
 
-############################my-own-config#####################################
 
 
 bindsym --release Shift+o exec --no-startup-id /home/pwner/bin/scregcp -s /home/pwner/Pictures/screenshots/
-
-
-exec_always --no-startup-id feh --bg-scale /home/pwner/Pictures/wallpaper.png
 
