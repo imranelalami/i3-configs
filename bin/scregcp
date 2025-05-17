@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+
+# Screenshot & copy to clipboard tool for i3
+# Dependencies: imagemagick (import), xclip
+
+set -e
+
+function help_and_exit {
+    if [ -n "$1" ]; then
+        echo "$1" >&2
+    fi
+    cat <<EOF
+Usage: $(basename "$0") [-h|-s] [<screenshots_base_folder>]
+
+Options:
+  -h    Show help
+  -s    Screenshot region instead of full screen
+
+Examples:
+  $(basename "$0") -s ~/Pictures/screenshots/
+  $(basename "$0") ~/Pictures/screenshots/
+EOF
+    exit ${2:-0}
+}
+
+# Parse args
+MODE="full"
+OUTDIR="$PWD"
+
+while [[ "$#" -gt 0 ]]; do
+    case "$1" in
+        -h) help_and_exit ;;
+        -s) MODE="region" ;;
+        -*) help_and_exit "Unknown option: $1" 1 ;;
+        *) OUTDIR="$1" ;;
+    esac
+    shift
+done
+
+# Ensure output dir ends with /
+OUTDIR="${OUTDIR%/}/"
+mkdir -p "$OUTDIR"
+
+FILENAME="${OUTDIR}$(date '+%Y-%m-%d_%H-%M-%S')_screenshot.png"
+
+# Take screenshot
+if [[ "$MODE" == "region" ]]; then
+    import "$FILENAME"
+else
+    import -window root "$FILENAME"
+fi
+
+# Copy to clipboard
+xclip -selection clipboard -target image/png -i "$FILENAME"
+
+# Optional: notify
+#notify-send "Screenshot taken" "$FILENAME"
+
