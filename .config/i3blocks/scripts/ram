@@ -1,7 +1,0 @@
-#!/bin/bash
-used=$(free -m | awk '/Mem:/ {print $3}')
-total=$(free -m | awk '/Mem:/ {print $2}')
-percent=$((100 * used / total))
-bar=$(printf "%.0s|" $(seq 1 $((percent / 10))))
-echo "$bar $percent%"
-

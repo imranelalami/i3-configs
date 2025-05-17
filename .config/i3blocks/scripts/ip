@@ -1,5 +1,0 @@
-#!/bin/bash
-private_ip=$(hostname -I | awk '{print $1}')
-public_ip=$(curl -s ifconfig.me)
-echo "LAN: $private_ip | WAN: $public_ip"
-
