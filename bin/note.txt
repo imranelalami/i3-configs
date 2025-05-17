@@ -1,1 +1,1 @@
-this folder has a script for the screenshot tool
+this folder has a script for the screenshot tool , it should be in your ~/
