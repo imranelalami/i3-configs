@@ -202,3 +202,6 @@ bindsym --release Shift+o exec --no-startup-id /home/pwner/bin/scregcp -s /home/
 exec_always --no-startup-id feh --bg-scale /home/pwner/Pictures/wallpaper.png
 
 
+for_window [class=".*"] border none
+
+hide_edge_borders both
