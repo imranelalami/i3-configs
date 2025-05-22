@@ -7,6 +7,7 @@ text/plain=org.gnome.TextEditor.desktop;
 text/x-cmake=org.gnome.TextEditor.desktop;
 x-scheme-handler/http=firefox-esr.desktop;
 x-scheme-handler/https=firefox-esr.desktop;
+image/png=org.xfce.ristretto.desktop;
 
 [Default Applications]
 application/json=org.gnome.TextEditor.desktop;

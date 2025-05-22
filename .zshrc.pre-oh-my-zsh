@@ -1,6 +1,7 @@
 # ~/.zshrc file for zsh interactive shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
-export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
+
+#export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"
 setopt autocd              # change directory just by typing its name
 #setopt correct            # auto correct mistakes
 setopt interactivecomments # allow comments in interactive mode
@@ -256,9 +257,49 @@ fi
 if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
+
+
+
+########################################################################################################
 alias serve='bundle exec jekyll serve'
 
 export PATH="$HOME/bin:$PATH"
 
 alias "c=xclip"
 alias "v=xclip -o"
+# UI scaling
+export GDK_SCALE=1            # For GTK apps
+export GDK_DPI_SCALE=1
+export QT_SCALE_FACTOR=1    # For Qt apps
+export QT_FONT_DPI=96
+
+# Install Ruby Gems to ~/.gem
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
+# Created by `pipx` on 2025-05-19 01:29:25
+export PATH="$PATH:/home/pwner/.local/bin"
+
+alias ..='cd ..'
+alias ....='cd ../..'
+alias ......='cd ../../..'
+#####
+setopt extended_history # save timestamp of command and duration
+
+alias catc='cat | xclip -selection clipboard'
+
+
+### tmux alias
+
+t() {
+    case "$1" in
+        a) tmux attach ;;
+        d) tmux detach ;;
+        r) shift; tmux rename-window -t "$(tmux display-message -p '#S:#I')" "$@" ;;
+        "") tmux ;;
+        *) tmux "$@" ;;
+    esac
+}
+# Prevent Zsh from auto-renaming tmux windows
+DISABLE_AUTO_TITLE="true"
+

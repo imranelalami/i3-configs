@@ -1,0 +1,6 @@
+2025/05/19-15:23:32.575 5db6 Reusing MANIFEST /home/pwner/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/19-15:23:32.575 5db6 Recovering log #3
+2025/05/19-15:23:32.578 5db6 Reusing old log /home/pwner/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 
+2025/05/19-17:41:19.398 5db7 Level-0 table #5: started
+2025/05/19-17:41:19.423 5db7 Level-0 table #5: 1286316 bytes OK
+2025/05/19-17:41:19.427 5db7 Delete type=0 #3

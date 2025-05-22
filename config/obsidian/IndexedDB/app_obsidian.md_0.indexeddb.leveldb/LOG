@@ -1,0 +1,12 @@
+2025/05/20-17:13:56.439 17460 Reusing MANIFEST /home/pwner/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/20-17:13:56.439 17460 Recovering log #4
+2025/05/20-17:13:56.446 17460 Reusing old log /home/pwner/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000004.log 
+2025/05/20-21:04:04.592 1744d Level-0 table #8: started
+2025/05/20-21:04:04.609 1744d Level-0 table #8: 1492389 bytes OK
+2025/05/20-21:04:04.612 1744d Delete type=0 #4
+2025/05/20-21:05:02.189 1744d Compacting 1@1 + 1@2 files
+2025/05/20-21:05:02.207 1744d Generated table #9@1: 630 keys, 512973 bytes
+2025/05/20-21:05:02.207 1744d Compacted 1@1 + 1@2 files => 512973 bytes
+2025/05/20-21:05:02.208 1744d compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/20-21:05:02.208 1744d Delete type=2 #5
+2025/05/20-21:05:02.208 1744d Delete type=2 #8
